@@ -1,0 +1,245 @@
+{
+  "data": [],
+  "directed": false,
+  "multigraph": false,
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "gender": "male",
+          "race": "Man",
+          "label": "Aragorn",
+          "id": "Aragorn",
+          "value": "Aragorn",
+          "name": "Aragorn"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Elf",
+          "label": "Arwen",
+          "id": "Arwen",
+          "value": "Arwen",
+          "name": "Arwen"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Hobbit",
+          "label": "Samwise Gamgee",
+          "id": "Samwise Gamgee",
+          "value": "Samwise Gamgee",
+          "name": "Samwise Gamgee"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Hobbit",
+          "label": "Rosie Cotton",
+          "id": "Rosie Cotton",
+          "value": "Rosie Cotton",
+          "name": "Rosie Cotton"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Man",
+          "label": "Faramir",
+          "id": "Faramir",
+          "value": "Faramir",
+          "name": "Faramir"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Man",
+          "label": "Eowyn",
+          "id": "Eowyn",
+          "value": "Eowyn",
+          "name": "Eowyn"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Man",
+          "label": "Beren",
+          "id": "Beren",
+          "value": "Beren",
+          "name": "Beren"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Elf",
+          "label": "Luthien",
+          "id": "Luthien",
+          "value": "Luthien",
+          "name": "Luthien"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Elf",
+          "label": "Galadriel",
+          "id": "Galadriel",
+          "value": "Galadriel",
+          "name": "Galadriel"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Elf",
+          "label": "Celeborn",
+          "id": "Celeborn",
+          "value": "Celeborn",
+          "name": "Celeborn"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Unknown",
+          "label": "Tom Bombadil",
+          "id": "Tom Bombadil",
+          "value": "Tom Bombadil",
+          "name": "Tom Bombadil"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Maia",
+          "label": "Goldberry",
+          "id": "Goldberry",
+          "value": "Goldberry",
+          "name": "Goldberry"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Man",
+          "label": "Eomer",
+          "id": "Eomer",
+          "value": "Eomer",
+          "name": "Eomer"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Man",
+          "label": "Lothiriel",
+          "id": "Lothiriel",
+          "value": "Lothiriel",
+          "name": "Lothiriel"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Elf",
+          "label": "Thingol",
+          "id": "Thingol",
+          "value": "Thingol",
+          "name": "Thingol"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Maia",
+          "label": "Melian",
+          "id": "Melian",
+          "value": "Melian",
+          "name": "Melian"
+        }
+      },
+      {
+        "data": {
+          "gender": "male",
+          "race": "Man",
+          "label": "Tuor",
+          "id": "Tuor",
+          "value": "Tuor",
+          "name": "Tuor"
+        }
+      },
+      {
+        "data": {
+          "gender": "female",
+          "race": "Elf",
+          "label": "Idril",
+          "id": "Idril",
+          "value": "Idril",
+          "name": "Idril"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "source": "Aragorn",
+          "target": "Arwen"
+        }
+      },
+      {
+        "data": {
+          "source": "Samwise Gamgee",
+          "target": "Rosie Cotton"
+        }
+      },
+      {
+        "data": {
+          "source": "Faramir",
+          "target": "Eowyn"
+        }
+      },
+      {
+        "data": {
+          "source": "Beren",
+          "target": "Luthien"
+        }
+      },
+      {
+        "data": {
+          "source": "Galadriel",
+          "target": "Celeborn"
+        }
+      },
+      {
+        "data": {
+          "source": "Tom Bombadil",
+          "target": "Goldberry"
+        }
+      },
+      {
+        "data": {
+          "source": "Eomer",
+          "target": "Lothiriel"
+        }
+      },
+      {
+        "data": {
+          "source": "Thingol",
+          "target": "Melian"
+        }
+      },
+      {
+        "data": {
+          "source": "Tuor",
+          "target": "Idril"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1332 @@
+{
+  "data": [
+    [
+      "imdb_rating",
+      9.0
+    ],
+    [
+      "movie_name",
+      "The Dark Knight"
+    ],
+    [
+      "movie_year",
+      2008
+    ],
+    [
+      "slug",
+      "2008_The_Dark_Knight"
+    ]
+  ],
+  "directed": false,
+  "multigraph": false,
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "first": 16,
+          "last": 3550,
+          "role": "Christian Bale",
+          "degree": 19,
+          "weighted_degree": 802,
+          "label": "Bruce Wayne / Batman",
+          "community": 0,
+          "id": "Bruce Wayne / Batman",
+          "value": "Bruce Wayne / Batman",
+          "name": "Bruce Wayne / Batman"
+        }
+      },
+      {
+        "data": {
+          "first": 16,
+          "last": 3559,
+          "role": "Morgan Freeman",
+          "degree": 9,
+          "weighted_degree": 132,
+          "label": "Lucius Fox",
+          "community": 0,
+          "id": "Lucius Fox",
+          "value": "Lucius Fox",
+          "name": "Lucius Fox"
+        }
+      },
+      {
+        "data": {
+          "first": 53,
+          "last": 3569,
+          "role": "Colin McFarlane",
+          "degree": 6,
+          "weighted_degree": 30,
+          "label": "Gillian B. Loeb",
+          "community": 1,
+          "id": "Gillian B. Loeb",
+          "value": "Gillian B. Loeb",
+          "name": "Gillian B. Loeb"
+        }
+      },
+      {
+        "data": {
+          "first": 61,
+          "last": 3571,
+          "role": "Heath Ledger",
+          "degree": 19,
+          "weighted_degree": 561,
+          "label": "Joker",
+          "community": 1,
+          "id": "Joker",
+          "value": "Joker",
+          "name": "Joker"
+        }
+      },
+      {
+        "data": {
+          "first": 107,
+          "last": 3509,
+          "role": "Melinda McGraw",
+          "degree": 19,
+          "weighted_degree": 414,
+          "label": "Barbara Gordon",
+          "community": 0,
+          "id": "Barbara Gordon",
+          "value": "Barbara Gordon",
+          "name": "Barbara Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 125,
+          "last": 3455,
+          "role": "Aaron Eckhart",
+          "degree": 21,
+          "weighted_degree": 931,
+          "label": "Harvey Dent / Two-Face",
+          "community": 0,
+          "id": "Harvey Dent / Two-Face",
+          "value": "Harvey Dent / Two-Face",
+          "name": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 2410,
+          "role": "Keith Szarabajka",
+          "degree": 5,
+          "weighted_degree": 23,
+          "label": "Gerard Stephens",
+          "community": 0,
+          "id": "Gerard Stephens",
+          "value": "Gerard Stephens",
+          "name": "Gerard Stephens"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 386,
+          "role": "Nestor Carbonell",
+          "degree": 3,
+          "weighted_degree": 11,
+          "label": "Mayor Anthony Garcia",
+          "community": 1,
+          "id": "Mayor Anthony Garcia",
+          "value": "Mayor Anthony Garcia",
+          "name": "Mayor Anthony Garcia"
+        }
+      },
+      {
+        "data": {
+          "first": 172,
+          "last": 3525,
+          "role": "Monique Gabriela Curnen",
+          "degree": 6,
+          "weighted_degree": 33,
+          "label": "Anna Ramirez",
+          "community": 2,
+          "id": "Anna Ramirez",
+          "value": "Anna Ramirez",
+          "name": "Anna Ramirez"
+        }
+      },
+      {
+        "data": {
+          "first": 200,
+          "last": 3512,
+          "role": "Maggie Gyllenhaal",
+          "degree": 16,
+          "weighted_degree": 496,
+          "label": "Rachel Dawes",
+          "community": 0,
+          "id": "Rachel Dawes",
+          "value": "Rachel Dawes",
+          "name": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 253,
+          "last": 253,
+          "role": "Vincenzo Nicoli",
+          "degree": 3,
+          "weighted_degree": 12,
+          "label": "Crime Boss",
+          "community": 0,
+          "id": "Crime Boss",
+          "value": "Crime Boss",
+          "name": "Crime Boss"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3321,
+          "role": "Eric Roberts",
+          "degree": 9,
+          "weighted_degree": 95,
+          "label": "Sal Maroni",
+          "community": 0,
+          "id": "Sal Maroni",
+          "value": "Sal Maroni",
+          "name": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 406,
+          "last": 3509,
+          "role": "Ron Dean",
+          "degree": 11,
+          "weighted_degree": 72,
+          "label": "Michael Wuertz",
+          "community": 2,
+          "id": "Michael Wuertz",
+          "value": "Michael Wuertz",
+          "name": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 509,
+          "last": 2627,
+          "role": "Ritchie Coster",
+          "degree": 8,
+          "weighted_degree": 83,
+          "label": "Chechen",
+          "community": 1,
+          "id": "Chechen",
+          "value": "Chechen",
+          "name": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 868,
+          "last": 868,
+          "role": "Patrick Clear",
+          "degree": 3,
+          "weighted_degree": 10,
+          "label": "Judge Freel",
+          "community": 0,
+          "id": "Judge Freel",
+          "value": "Judge Freel",
+          "name": "Judge Freel"
+        }
+      },
+      {
+        "data": {
+          "first": 1075,
+          "last": 3200,
+          "role": "Chin Han",
+          "degree": 12,
+          "weighted_degree": 203,
+          "label": "Lau",
+          "community": 0,
+          "id": "Lau",
+          "value": "Lau",
+          "name": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1176,
+          "last": 1176,
+          "role": "Beatrice Rosen",
+          "degree": 3,
+          "weighted_degree": 16,
+          "label": "Natascha",
+          "community": 0,
+          "id": "Natascha",
+          "value": "Natascha",
+          "name": "Natascha"
+        }
+      },
+      {
+        "data": {
+          "first": 1408,
+          "last": 1408,
+          "role": "Nathan Gamble",
+          "degree": 2,
+          "weighted_degree": 8,
+          "label": "Jr. James Gordon",
+          "community": 0,
+          "id": "Jr. James Gordon",
+          "value": "Jr. James Gordon",
+          "name": "Jr. James Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 1492,
+          "last": 1492,
+          "role": "Philip Bulcock",
+          "degree": 1,
+          "weighted_degree": 4,
+          "label": "Murphy",
+          "community": 0,
+          "id": "Murphy",
+          "value": "Murphy",
+          "name": "Murphy"
+        }
+      },
+      {
+        "data": {
+          "first": 2014,
+          "last": 3438,
+          "role": "Edison Chen",
+          "degree": 3,
+          "weighted_degree": 12,
+          "label": "LSI VP",
+          "community": 1,
+          "id": "LSI VP",
+          "value": "LSI VP",
+          "name": "LSI VP"
+        }
+      },
+      {
+        "data": {
+          "first": 2439,
+          "last": 2790,
+          "role": "Nydia Rodriguez Terracina",
+          "degree": 8,
+          "weighted_degree": 58,
+          "label": "Judge Janet Surrillo",
+          "community": 2,
+          "id": "Judge Janet Surrillo",
+          "value": "Judge Janet Surrillo",
+          "name": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2545,
+          "last": 3567,
+          "role": "Anthony Michael Hall",
+          "degree": 13,
+          "weighted_degree": 144,
+          "label": "Mike Engel",
+          "community": 1,
+          "id": "Mike Engel",
+          "value": "Mike Engel",
+          "name": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2612,
+          "role": "Andy Luther",
+          "degree": 7,
+          "weighted_degree": 97,
+          "label": "Brian",
+          "community": 1,
+          "id": "Brian",
+          "value": "Brian",
+          "name": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 2843,
+          "last": 2843,
+          "role": "Matt Shallenberger",
+          "degree": 3,
+          "weighted_degree": 11,
+          "label": "Berg",
+          "community": 1,
+          "id": "Berg",
+          "value": "Berg",
+          "name": "Berg"
+        }
+      },
+      {
+        "data": {
+          "first": 3209,
+          "last": 3209,
+          "role": "Jeff Albertson",
+          "degree": 3,
+          "weighted_degree": 10,
+          "label": "National Guard",
+          "community": 1,
+          "id": "National Guard",
+          "value": "National Guard",
+          "name": "National Guard"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "data": {
+          "first": 16,
+          "last": 3559,
+          "weight": 44,
+          "source": "Bruce Wayne / Batman",
+          "target": "Lucius Fox"
+        }
+      },
+      {
+        "data": {
+          "first": 53,
+          "last": 3569,
+          "weight": 7,
+          "source": "Bruce Wayne / Batman",
+          "target": "Gillian B. Loeb"
+        }
+      },
+      {
+        "data": {
+          "first": 61,
+          "last": 3571,
+          "weight": 154,
+          "source": "Bruce Wayne / Batman",
+          "target": "Joker"
+        }
+      },
+      {
+        "data": {
+          "first": 107,
+          "last": 3550,
+          "weight": 75,
+          "source": "Bruce Wayne / Batman",
+          "target": "Barbara Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 125,
+          "last": 3455,
+          "weight": 242,
+          "source": "Bruce Wayne / Batman",
+          "target": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 2410,
+          "weight": 3,
+          "source": "Bruce Wayne / Batman",
+          "target": "Gerard Stephens"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 392,
+          "weight": 3,
+          "source": "Bruce Wayne / Batman",
+          "target": "Mayor Anthony Garcia"
+        }
+      },
+      {
+        "data": {
+          "first": 241,
+          "last": 3550,
+          "weight": 125,
+          "source": "Bruce Wayne / Batman",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 253,
+          "last": 308,
+          "weight": 3,
+          "source": "Bruce Wayne / Batman",
+          "target": "Crime Boss"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3358,
+          "weight": 10,
+          "source": "Bruce Wayne / Batman",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 406,
+          "last": 3550,
+          "weight": 11,
+          "source": "Bruce Wayne / Batman",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 509,
+          "last": 2671,
+          "weight": 17,
+          "source": "Bruce Wayne / Batman",
+          "target": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 868,
+          "last": 868,
+          "weight": 4,
+          "source": "Bruce Wayne / Batman",
+          "target": "Judge Freel"
+        }
+      },
+      {
+        "data": {
+          "first": 1079,
+          "last": 3252,
+          "weight": 43,
+          "source": "Bruce Wayne / Batman",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1176,
+          "last": 1208,
+          "weight": 6,
+          "source": "Bruce Wayne / Batman",
+          "target": "Natascha"
+        }
+      },
+      {
+        "data": {
+          "first": 2014,
+          "last": 3450,
+          "weight": 5,
+          "source": "Bruce Wayne / Batman",
+          "target": "LSI VP"
+        }
+      },
+      {
+        "data": {
+          "first": 2439,
+          "last": 2790,
+          "weight": 10,
+          "source": "Bruce Wayne / Batman",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2545,
+          "last": 3567,
+          "weight": 20,
+          "source": "Bruce Wayne / Batman",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2671,
+          "weight": 20,
+          "source": "Bruce Wayne / Batman",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 61,
+          "last": 3571,
+          "weight": 17,
+          "source": "Lucius Fox",
+          "target": "Joker"
+        }
+      },
+      {
+        "data": {
+          "first": 301,
+          "last": 3374,
+          "weight": 26,
+          "source": "Lucius Fox",
+          "target": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 301,
+          "last": 3559,
+          "weight": 19,
+          "source": "Lucius Fox",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 301,
+          "last": 3559,
+          "weight": 9,
+          "source": "Lucius Fox",
+          "target": "Barbara Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3374,
+          "weight": 3,
+          "source": "Lucius Fox",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 406,
+          "last": 3559,
+          "weight": 3,
+          "source": "Lucius Fox",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 1149,
+          "last": 3235,
+          "weight": 7,
+          "source": "Lucius Fox",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 3235,
+          "last": 3567,
+          "weight": 4,
+          "source": "Lucius Fox",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 61,
+          "last": 3571,
+          "weight": 7,
+          "source": "Gillian B. Loeb",
+          "target": "Joker"
+        }
+      },
+      {
+        "data": {
+          "first": 107,
+          "last": 2843,
+          "weight": 4,
+          "source": "Gillian B. Loeb",
+          "target": "Barbara Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 2784,
+          "last": 2784,
+          "weight": 6,
+          "source": "Gillian B. Loeb",
+          "target": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 2784,
+          "last": 3569,
+          "weight": 3,
+          "source": "Gillian B. Loeb",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2784,
+          "last": 2790,
+          "weight": 3,
+          "source": "Gillian B. Loeb",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 107,
+          "last": 3509,
+          "weight": 55,
+          "source": "Joker",
+          "target": "Barbara Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 125,
+          "last": 3502,
+          "weight": 134,
+          "source": "Joker",
+          "target": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 248,
+          "weight": 5,
+          "source": "Joker",
+          "target": "Gerard Stephens"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 423,
+          "weight": 5,
+          "source": "Joker",
+          "target": "Mayor Anthony Garcia"
+        }
+      },
+      {
+        "data": {
+          "first": 172,
+          "last": 3571,
+          "weight": 6,
+          "source": "Joker",
+          "target": "Anna Ramirez"
+        }
+      },
+      {
+        "data": {
+          "first": 243,
+          "last": 3571,
+          "weight": 48,
+          "source": "Joker",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 368,
+          "last": 3334,
+          "weight": 6,
+          "source": "Joker",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 406,
+          "last": 3509,
+          "weight": 9,
+          "source": "Joker",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 509,
+          "last": 2649,
+          "weight": 18,
+          "source": "Joker",
+          "target": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 1111,
+          "last": 3250,
+          "weight": 24,
+          "source": "Joker",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 2550,
+          "last": 3571,
+          "weight": 28,
+          "source": "Joker",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2649,
+          "weight": 31,
+          "source": "Joker",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 2788,
+          "last": 2817,
+          "weight": 4,
+          "source": "Joker",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2843,
+          "last": 2851,
+          "weight": 3,
+          "source": "Joker",
+          "target": "Berg"
+        }
+      },
+      {
+        "data": {
+          "first": 3226,
+          "last": 3250,
+          "weight": 4,
+          "source": "Joker",
+          "target": "National Guard"
+        }
+      },
+      {
+        "data": {
+          "first": 3438,
+          "last": 3496,
+          "weight": 3,
+          "source": "Joker",
+          "target": "LSI VP"
+        }
+      },
+      {
+        "data": {
+          "first": 125,
+          "last": 3509,
+          "weight": 128,
+          "source": "Barbara Gordon",
+          "target": "Harvey Dent / Two-Face"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 2451,
+          "weight": 9,
+          "source": "Barbara Gordon",
+          "target": "Gerard Stephens"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 386,
+          "weight": 3,
+          "source": "Barbara Gordon",
+          "target": "Mayor Anthony Garcia"
+        }
+      },
+      {
+        "data": {
+          "first": 172,
+          "last": 3525,
+          "weight": 7,
+          "source": "Barbara Gordon",
+          "target": "Anna Ramirez"
+        }
+      },
+      {
+        "data": {
+          "first": 200,
+          "last": 3512,
+          "weight": 46,
+          "source": "Barbara Gordon",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 253,
+          "last": 305,
+          "weight": 6,
+          "source": "Barbara Gordon",
+          "target": "Crime Boss"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3327,
+          "weight": 18,
+          "source": "Barbara Gordon",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 509,
+          "last": 1534,
+          "weight": 5,
+          "source": "Barbara Gordon",
+          "target": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 1075,
+          "last": 3200,
+          "weight": 16,
+          "source": "Barbara Gordon",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1408,
+          "last": 1462,
+          "weight": 3,
+          "source": "Barbara Gordon",
+          "target": "Jr. James Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 1492,
+          "last": 1534,
+          "weight": 4,
+          "source": "Barbara Gordon",
+          "target": "Murphy"
+        }
+      },
+      {
+        "data": {
+          "first": 2451,
+          "last": 2843,
+          "weight": 8,
+          "source": "Barbara Gordon",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2481,
+          "last": 3509,
+          "weight": 7,
+          "source": "Barbara Gordon",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 2737,
+          "last": 3567,
+          "weight": 6,
+          "source": "Barbara Gordon",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2843,
+          "last": 2884,
+          "weight": 5,
+          "source": "Barbara Gordon",
+          "target": "Berg"
+        }
+      },
+      {
+        "data": {
+          "first": 141,
+          "last": 2467,
+          "weight": 3,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Gerard Stephens"
+        }
+      },
+      {
+        "data": {
+          "first": 172,
+          "last": 2167,
+          "weight": 7,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Anna Ramirez"
+        }
+      },
+      {
+        "data": {
+          "first": 287,
+          "last": 3512,
+          "weight": 162,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3363,
+          "weight": 37,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 516,
+          "last": 2686,
+          "weight": 17,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 868,
+          "last": 889,
+          "weight": 3,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Judge Freel"
+        }
+      },
+      {
+        "data": {
+          "first": 1075,
+          "last": 3213,
+          "weight": 56,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1176,
+          "last": 1235,
+          "weight": 5,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Natascha"
+        }
+      },
+      {
+        "data": {
+          "first": 1408,
+          "last": 1408,
+          "weight": 5,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Jr. James Gordon"
+        }
+      },
+      {
+        "data": {
+          "first": 1599,
+          "last": 3509,
+          "weight": 17,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 2014,
+          "last": 3455,
+          "weight": 4,
+          "source": "Harvey Dent / Two-Face",
+          "target": "LSI VP"
+        }
+      },
+      {
+        "data": {
+          "first": 2453,
+          "last": 2790,
+          "weight": 18,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2545,
+          "last": 3230,
+          "weight": 39,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2635,
+          "weight": 16,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 2843,
+          "last": 2875,
+          "weight": 3,
+          "source": "Harvey Dent / Two-Face",
+          "target": "Berg"
+        }
+      },
+      {
+        "data": {
+          "first": 3209,
+          "last": 3213,
+          "weight": 3,
+          "source": "Harvey Dent / Two-Face",
+          "target": "National Guard"
+        }
+      },
+      {
+        "data": {
+          "first": 200,
+          "last": 2426,
+          "weight": 3,
+          "source": "Gerard Stephens",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 200,
+          "last": 3525,
+          "weight": 6,
+          "source": "Anna Ramirez",
+          "target": "Rachel Dawes"
+        }
+      },
+      {
+        "data": {
+          "first": 1599,
+          "last": 2193,
+          "weight": 4,
+          "source": "Anna Ramirez",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1599,
+          "last": 3525,
+          "weight": 3,
+          "source": "Anna Ramirez",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 253,
+          "last": 309,
+          "weight": 3,
+          "source": "Rachel Dawes",
+          "target": "Crime Boss"
+        }
+      },
+      {
+        "data": {
+          "first": 348,
+          "last": 3321,
+          "weight": 7,
+          "source": "Rachel Dawes",
+          "target": "Sal Maroni"
+        }
+      },
+      {
+        "data": {
+          "first": 509,
+          "last": 2686,
+          "weight": 8,
+          "source": "Rachel Dawes",
+          "target": "Chechen"
+        }
+      },
+      {
+        "data": {
+          "first": 1105,
+          "last": 3200,
+          "weight": 30,
+          "source": "Rachel Dawes",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1176,
+          "last": 1190,
+          "weight": 5,
+          "source": "Rachel Dawes",
+          "target": "Natascha"
+        }
+      },
+      {
+        "data": {
+          "first": 2439,
+          "last": 2790,
+          "weight": 6,
+          "source": "Rachel Dawes",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2481,
+          "last": 3512,
+          "weight": 7,
+          "source": "Rachel Dawes",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 2545,
+          "last": 3567,
+          "weight": 15,
+          "source": "Rachel Dawes",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2641,
+          "weight": 6,
+          "source": "Rachel Dawes",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 406,
+          "last": 3321,
+          "weight": 4,
+          "source": "Sal Maroni",
+          "target": "Michael Wuertz"
+        }
+      },
+      {
+        "data": {
+          "first": 902,
+          "last": 924,
+          "weight": 3,
+          "source": "Sal Maroni",
+          "target": "Judge Freel"
+        }
+      },
+      {
+        "data": {
+          "first": 1354,
+          "last": 1646,
+          "weight": 7,
+          "source": "Sal Maroni",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 1599,
+          "last": 1646,
+          "weight": 3,
+          "source": "Michael Wuertz",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 2481,
+          "last": 2790,
+          "weight": 5,
+          "source": "Michael Wuertz",
+          "target": "Judge Janet Surrillo"
+        }
+      },
+      {
+        "data": {
+          "first": 2790,
+          "last": 3567,
+          "weight": 3,
+          "source": "Michael Wuertz",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2545,
+          "last": 2627,
+          "weight": 5,
+          "source": "Chechen",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2627,
+          "weight": 10,
+          "source": "Chechen",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 2581,
+          "last": 2627,
+          "weight": 3,
+          "source": "Chechen",
+          "target": "Lau"
+        }
+      },
+      {
+        "data": {
+          "first": 2581,
+          "last": 3230,
+          "weight": 5,
+          "source": "Lau",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2581,
+          "last": 2612,
+          "weight": 5,
+          "source": "Lau",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 2784,
+          "last": 2790,
+          "weight": 4,
+          "source": "Judge Janet Surrillo",
+          "target": "Mike Engel"
+        }
+      },
+      {
+        "data": {
+          "first": 2553,
+          "last": 2612,
+          "weight": 9,
+          "source": "Mike Engel",
+          "target": "Brian"
+        }
+      },
+      {
+        "data": {
+          "first": 3212,
+          "last": 3230,
+          "weight": 3,
+          "source": "Mike Engel",
+          "target": "National Guard"
+        }
+      }
+    ]
+  }
+}

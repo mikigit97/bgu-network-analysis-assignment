@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="node" attr.name="label" attr.type="string"/>
+<key id="d1" for="node" attr.name="race" attr.type="string"/>
+<key id="d0" for="node" attr.name="gender" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Aragorn">
+  <data key="d0">male</data>
+  <data key="d1">Man</data>
+  <data key="d2">Aragorn</data>
+</node>
+<node id="Arwen">
+  <data key="d0">female</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Arwen</data>
+</node>
+<node id="Samwise Gamgee">
+  <data key="d0">male</data>
+  <data key="d1">Hobbit</data>
+  <data key="d2">Samwise Gamgee</data>
+</node>
+<node id="Rosie Cotton">
+  <data key="d0">female</data>
+  <data key="d1">Hobbit</data>
+  <data key="d2">Rosie Cotton</data>
+</node>
+<node id="Faramir">
+  <data key="d0">male</data>
+  <data key="d1">Man</data>
+  <data key="d2">Faramir</data>
+</node>
+<node id="Eowyn">
+  <data key="d0">female</data>
+  <data key="d1">Man</data>
+  <data key="d2">Eowyn</data>
+</node>
+<node id="Beren">
+  <data key="d0">male</data>
+  <data key="d1">Man</data>
+  <data key="d2">Beren</data>
+</node>
+<node id="Luthien">
+  <data key="d0">female</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Luthien</data>
+</node>
+<node id="Galadriel">
+  <data key="d0">female</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Galadriel</data>
+</node>
+<node id="Celeborn">
+  <data key="d0">male</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Celeborn</data>
+</node>
+<node id="Tom Bombadil">
+  <data key="d0">male</data>
+  <data key="d1">Unknown</data>
+  <data key="d2">Tom Bombadil</data>
+</node>
+<node id="Goldberry">
+  <data key="d0">female</data>
+  <data key="d1">Maia</data>
+  <data key="d2">Goldberry</data>
+</node>
+<node id="Eomer">
+  <data key="d0">male</data>
+  <data key="d1">Man</data>
+  <data key="d2">Eomer</data>
+</node>
+<node id="Lothiriel">
+  <data key="d0">female</data>
+  <data key="d1">Man</data>
+  <data key="d2">Lothiriel</data>
+</node>
+<node id="Thingol">
+  <data key="d0">male</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Thingol</data>
+</node>
+<node id="Melian">
+  <data key="d0">female</data>
+  <data key="d1">Maia</data>
+  <data key="d2">Melian</data>
+</node>
+<node id="Tuor">
+  <data key="d0">male</data>
+  <data key="d1">Man</data>
+  <data key="d2">Tuor</data>
+</node>
+<node id="Idril">
+  <data key="d0">female</data>
+  <data key="d1">Elf</data>
+  <data key="d2">Idril</data>
+</node>
+<edge source="Aragorn" target="Arwen"/>
+<edge source="Samwise Gamgee" target="Rosie Cotton"/>
+<edge source="Faramir" target="Eowyn"/>
+<edge source="Beren" target="Luthien"/>
+<edge source="Galadriel" target="Celeborn"/>
+<edge source="Tom Bombadil" target="Goldberry"/>
+<edge source="Eomer" target="Lothiriel"/>
+<edge source="Thingol" target="Melian"/>
+<edge source="Tuor" target="Idril"/>
+</graph></graphml>

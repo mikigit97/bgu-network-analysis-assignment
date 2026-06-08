@@ -1,0 +1,910 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-01">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="first" type="long" />
+      <attribute id="7" title="last" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="first" type="long" />
+      <attribute id="1" title="last" type="long" />
+      <attribute id="2" title="role" type="string" />
+      <attribute id="3" title="degree" type="long" />
+      <attribute id="4" title="weighted_degree" type="long" />
+      <attribute id="5" title="community" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Bruce Wayne / Batman" label="Bruce Wayne / Batman">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="3550" />
+          <attvalue for="2" value="Christian Bale" />
+          <attvalue for="3" value="19" />
+          <attvalue for="4" value="802" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Lucius Fox" label="Lucius Fox">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="3559" />
+          <attvalue for="2" value="Morgan Freeman" />
+          <attvalue for="3" value="9" />
+          <attvalue for="4" value="132" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Gillian B. Loeb" label="Gillian B. Loeb">
+        <attvalues>
+          <attvalue for="0" value="53" />
+          <attvalue for="1" value="3569" />
+          <attvalue for="2" value="Colin McFarlane" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="30" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Joker" label="Joker">
+        <attvalues>
+          <attvalue for="0" value="61" />
+          <attvalue for="1" value="3571" />
+          <attvalue for="2" value="Heath Ledger" />
+          <attvalue for="3" value="19" />
+          <attvalue for="4" value="561" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Barbara Gordon" label="Barbara Gordon">
+        <attvalues>
+          <attvalue for="0" value="107" />
+          <attvalue for="1" value="3509" />
+          <attvalue for="2" value="Melinda McGraw" />
+          <attvalue for="3" value="19" />
+          <attvalue for="4" value="414" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Harvey Dent / Two-Face" label="Harvey Dent / Two-Face">
+        <attvalues>
+          <attvalue for="0" value="125" />
+          <attvalue for="1" value="3455" />
+          <attvalue for="2" value="Aaron Eckhart" />
+          <attvalue for="3" value="21" />
+          <attvalue for="4" value="931" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Gerard Stephens" label="Gerard Stephens">
+        <attvalues>
+          <attvalue for="0" value="141" />
+          <attvalue for="1" value="2410" />
+          <attvalue for="2" value="Keith Szarabajka" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="23" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Mayor Anthony Garcia" label="Mayor Anthony Garcia">
+        <attvalues>
+          <attvalue for="0" value="141" />
+          <attvalue for="1" value="386" />
+          <attvalue for="2" value="Nestor Carbonell" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Anna Ramirez" label="Anna Ramirez">
+        <attvalues>
+          <attvalue for="0" value="172" />
+          <attvalue for="1" value="3525" />
+          <attvalue for="2" value="Monique Gabriela Curnen" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="33" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rachel Dawes" label="Rachel Dawes">
+        <attvalues>
+          <attvalue for="0" value="200" />
+          <attvalue for="1" value="3512" />
+          <attvalue for="2" value="Maggie Gyllenhaal" />
+          <attvalue for="3" value="16" />
+          <attvalue for="4" value="496" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Crime Boss" label="Crime Boss">
+        <attvalues>
+          <attvalue for="0" value="253" />
+          <attvalue for="1" value="253" />
+          <attvalue for="2" value="Vincenzo Nicoli" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Sal Maroni" label="Sal Maroni">
+        <attvalues>
+          <attvalue for="0" value="348" />
+          <attvalue for="1" value="3321" />
+          <attvalue for="2" value="Eric Roberts" />
+          <attvalue for="3" value="9" />
+          <attvalue for="4" value="95" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Michael Wuertz" label="Michael Wuertz">
+        <attvalues>
+          <attvalue for="0" value="406" />
+          <attvalue for="1" value="3509" />
+          <attvalue for="2" value="Ron Dean" />
+          <attvalue for="3" value="11" />
+          <attvalue for="4" value="72" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Chechen" label="Chechen">
+        <attvalues>
+          <attvalue for="0" value="509" />
+          <attvalue for="1" value="2627" />
+          <attvalue for="2" value="Ritchie Coster" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="83" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Judge Freel" label="Judge Freel">
+        <attvalues>
+          <attvalue for="0" value="868" />
+          <attvalue for="1" value="868" />
+          <attvalue for="2" value="Patrick Clear" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Lau" label="Lau">
+        <attvalues>
+          <attvalue for="0" value="1075" />
+          <attvalue for="1" value="3200" />
+          <attvalue for="2" value="Chin Han" />
+          <attvalue for="3" value="12" />
+          <attvalue for="4" value="203" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Natascha" label="Natascha">
+        <attvalues>
+          <attvalue for="0" value="1176" />
+          <attvalue for="1" value="1176" />
+          <attvalue for="2" value="Beatrice Rosen" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Jr. James Gordon" label="Jr. James Gordon">
+        <attvalues>
+          <attvalue for="0" value="1408" />
+          <attvalue for="1" value="1408" />
+          <attvalue for="2" value="Nathan Gamble" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="Murphy" label="Murphy">
+        <attvalues>
+          <attvalue for="0" value="1492" />
+          <attvalue for="1" value="1492" />
+          <attvalue for="2" value="Philip Bulcock" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="0" />
+        </attvalues>
+      </node>
+      <node id="LSI VP" label="LSI VP">
+        <attvalues>
+          <attvalue for="0" value="2014" />
+          <attvalue for="1" value="3438" />
+          <attvalue for="2" value="Edison Chen" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="12" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Judge Janet Surrillo" label="Judge Janet Surrillo">
+        <attvalues>
+          <attvalue for="0" value="2439" />
+          <attvalue for="1" value="2790" />
+          <attvalue for="2" value="Nydia Rodriguez Terracina" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="58" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mike Engel" label="Mike Engel">
+        <attvalues>
+          <attvalue for="0" value="2545" />
+          <attvalue for="1" value="3567" />
+          <attvalue for="2" value="Anthony Michael Hall" />
+          <attvalue for="3" value="13" />
+          <attvalue for="4" value="144" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Brian" label="Brian">
+        <attvalues>
+          <attvalue for="0" value="2553" />
+          <attvalue for="1" value="2612" />
+          <attvalue for="2" value="Andy Luther" />
+          <attvalue for="3" value="7" />
+          <attvalue for="4" value="97" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Berg" label="Berg">
+        <attvalues>
+          <attvalue for="0" value="2843" />
+          <attvalue for="1" value="2843" />
+          <attvalue for="2" value="Matt Shallenberger" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="National Guard" label="National Guard">
+        <attvalues>
+          <attvalue for="0" value="3209" />
+          <attvalue for="1" value="3209" />
+          <attvalue for="2" value="Jeff Albertson" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Bruce Wayne / Batman" target="Lucius Fox" id="0" weight="44">
+        <attvalues>
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="3559" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Gillian B. Loeb" id="1" weight="7">
+        <attvalues>
+          <attvalue for="6" value="53" />
+          <attvalue for="7" value="3569" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Joker" id="2" weight="154">
+        <attvalues>
+          <attvalue for="6" value="61" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Barbara Gordon" id="3" weight="75">
+        <attvalues>
+          <attvalue for="6" value="107" />
+          <attvalue for="7" value="3550" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Harvey Dent / Two-Face" id="4" weight="242">
+        <attvalues>
+          <attvalue for="6" value="125" />
+          <attvalue for="7" value="3455" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Gerard Stephens" id="5" weight="3">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="2410" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Mayor Anthony Garcia" id="6" weight="3">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="392" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Rachel Dawes" id="7" weight="125">
+        <attvalues>
+          <attvalue for="6" value="241" />
+          <attvalue for="7" value="3550" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Crime Boss" id="8" weight="3">
+        <attvalues>
+          <attvalue for="6" value="253" />
+          <attvalue for="7" value="308" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Sal Maroni" id="9" weight="10">
+        <attvalues>
+          <attvalue for="6" value="348" />
+          <attvalue for="7" value="3358" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Michael Wuertz" id="10" weight="11">
+        <attvalues>
+          <attvalue for="6" value="406" />
+          <attvalue for="7" value="3550" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Chechen" id="11" weight="17">
+        <attvalues>
+          <attvalue for="6" value="509" />
+          <attvalue for="7" value="2671" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Judge Freel" id="12" weight="4">
+        <attvalues>
+          <attvalue for="6" value="868" />
+          <attvalue for="7" value="868" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Lau" id="13" weight="43">
+        <attvalues>
+          <attvalue for="6" value="1079" />
+          <attvalue for="7" value="3252" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Natascha" id="14" weight="6">
+        <attvalues>
+          <attvalue for="6" value="1176" />
+          <attvalue for="7" value="1208" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="LSI VP" id="15" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2014" />
+          <attvalue for="7" value="3450" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Judge Janet Surrillo" id="16" weight="10">
+        <attvalues>
+          <attvalue for="6" value="2439" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Mike Engel" id="17" weight="20">
+        <attvalues>
+          <attvalue for="6" value="2545" />
+          <attvalue for="7" value="3567" />
+        </attvalues>
+      </edge>
+      <edge source="Bruce Wayne / Batman" target="Brian" id="18" weight="20">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2671" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Joker" id="19" weight="17">
+        <attvalues>
+          <attvalue for="6" value="61" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Harvey Dent / Two-Face" id="20" weight="26">
+        <attvalues>
+          <attvalue for="6" value="301" />
+          <attvalue for="7" value="3374" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Rachel Dawes" id="21" weight="19">
+        <attvalues>
+          <attvalue for="6" value="301" />
+          <attvalue for="7" value="3559" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Barbara Gordon" id="22" weight="9">
+        <attvalues>
+          <attvalue for="6" value="301" />
+          <attvalue for="7" value="3559" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Sal Maroni" id="23" weight="3">
+        <attvalues>
+          <attvalue for="6" value="348" />
+          <attvalue for="7" value="3374" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Michael Wuertz" id="24" weight="3">
+        <attvalues>
+          <attvalue for="6" value="406" />
+          <attvalue for="7" value="3559" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Lau" id="25" weight="7">
+        <attvalues>
+          <attvalue for="6" value="1149" />
+          <attvalue for="7" value="3235" />
+        </attvalues>
+      </edge>
+      <edge source="Lucius Fox" target="Mike Engel" id="26" weight="4">
+        <attvalues>
+          <attvalue for="6" value="3235" />
+          <attvalue for="7" value="3567" />
+        </attvalues>
+      </edge>
+      <edge source="Gillian B. Loeb" target="Joker" id="27" weight="7">
+        <attvalues>
+          <attvalue for="6" value="61" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Gillian B. Loeb" target="Barbara Gordon" id="28" weight="4">
+        <attvalues>
+          <attvalue for="6" value="107" />
+          <attvalue for="7" value="2843" />
+        </attvalues>
+      </edge>
+      <edge source="Gillian B. Loeb" target="Harvey Dent / Two-Face" id="29" weight="6">
+        <attvalues>
+          <attvalue for="6" value="2784" />
+          <attvalue for="7" value="2784" />
+        </attvalues>
+      </edge>
+      <edge source="Gillian B. Loeb" target="Mike Engel" id="30" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2784" />
+          <attvalue for="7" value="3569" />
+        </attvalues>
+      </edge>
+      <edge source="Gillian B. Loeb" target="Judge Janet Surrillo" id="31" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2784" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Barbara Gordon" id="32" weight="55">
+        <attvalues>
+          <attvalue for="6" value="107" />
+          <attvalue for="7" value="3509" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Harvey Dent / Two-Face" id="33" weight="134">
+        <attvalues>
+          <attvalue for="6" value="125" />
+          <attvalue for="7" value="3502" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Gerard Stephens" id="34" weight="5">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="248" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Mayor Anthony Garcia" id="35" weight="5">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="423" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Anna Ramirez" id="36" weight="6">
+        <attvalues>
+          <attvalue for="6" value="172" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Rachel Dawes" id="37" weight="48">
+        <attvalues>
+          <attvalue for="6" value="243" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Sal Maroni" id="38" weight="6">
+        <attvalues>
+          <attvalue for="6" value="368" />
+          <attvalue for="7" value="3334" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Michael Wuertz" id="39" weight="9">
+        <attvalues>
+          <attvalue for="6" value="406" />
+          <attvalue for="7" value="3509" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Chechen" id="40" weight="18">
+        <attvalues>
+          <attvalue for="6" value="509" />
+          <attvalue for="7" value="2649" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Lau" id="41" weight="24">
+        <attvalues>
+          <attvalue for="6" value="1111" />
+          <attvalue for="7" value="3250" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Mike Engel" id="42" weight="28">
+        <attvalues>
+          <attvalue for="6" value="2550" />
+          <attvalue for="7" value="3571" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Brian" id="43" weight="31">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2649" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Judge Janet Surrillo" id="44" weight="4">
+        <attvalues>
+          <attvalue for="6" value="2788" />
+          <attvalue for="7" value="2817" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="Berg" id="45" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2843" />
+          <attvalue for="7" value="2851" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="National Guard" id="46" weight="4">
+        <attvalues>
+          <attvalue for="6" value="3226" />
+          <attvalue for="7" value="3250" />
+        </attvalues>
+      </edge>
+      <edge source="Joker" target="LSI VP" id="47" weight="3">
+        <attvalues>
+          <attvalue for="6" value="3438" />
+          <attvalue for="7" value="3496" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Harvey Dent / Two-Face" id="48" weight="128">
+        <attvalues>
+          <attvalue for="6" value="125" />
+          <attvalue for="7" value="3509" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Gerard Stephens" id="49" weight="9">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="2451" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Mayor Anthony Garcia" id="50" weight="3">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="386" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Anna Ramirez" id="51" weight="7">
+        <attvalues>
+          <attvalue for="6" value="172" />
+          <attvalue for="7" value="3525" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Rachel Dawes" id="52" weight="46">
+        <attvalues>
+          <attvalue for="6" value="200" />
+          <attvalue for="7" value="3512" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Crime Boss" id="53" weight="6">
+        <attvalues>
+          <attvalue for="6" value="253" />
+          <attvalue for="7" value="305" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Sal Maroni" id="54" weight="18">
+        <attvalues>
+          <attvalue for="6" value="348" />
+          <attvalue for="7" value="3327" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Chechen" id="55" weight="5">
+        <attvalues>
+          <attvalue for="6" value="509" />
+          <attvalue for="7" value="1534" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Lau" id="56" weight="16">
+        <attvalues>
+          <attvalue for="6" value="1075" />
+          <attvalue for="7" value="3200" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Jr. James Gordon" id="57" weight="3">
+        <attvalues>
+          <attvalue for="6" value="1408" />
+          <attvalue for="7" value="1462" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Murphy" id="58" weight="4">
+        <attvalues>
+          <attvalue for="6" value="1492" />
+          <attvalue for="7" value="1534" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Judge Janet Surrillo" id="59" weight="8">
+        <attvalues>
+          <attvalue for="6" value="2451" />
+          <attvalue for="7" value="2843" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Michael Wuertz" id="60" weight="7">
+        <attvalues>
+          <attvalue for="6" value="2481" />
+          <attvalue for="7" value="3509" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Mike Engel" id="61" weight="6">
+        <attvalues>
+          <attvalue for="6" value="2737" />
+          <attvalue for="7" value="3567" />
+        </attvalues>
+      </edge>
+      <edge source="Barbara Gordon" target="Berg" id="62" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2843" />
+          <attvalue for="7" value="2884" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Gerard Stephens" id="63" weight="3">
+        <attvalues>
+          <attvalue for="6" value="141" />
+          <attvalue for="7" value="2467" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Anna Ramirez" id="64" weight="7">
+        <attvalues>
+          <attvalue for="6" value="172" />
+          <attvalue for="7" value="2167" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Rachel Dawes" id="65" weight="162">
+        <attvalues>
+          <attvalue for="6" value="287" />
+          <attvalue for="7" value="3512" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Sal Maroni" id="66" weight="37">
+        <attvalues>
+          <attvalue for="6" value="348" />
+          <attvalue for="7" value="3363" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Chechen" id="67" weight="17">
+        <attvalues>
+          <attvalue for="6" value="516" />
+          <attvalue for="7" value="2686" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Judge Freel" id="68" weight="3">
+        <attvalues>
+          <attvalue for="6" value="868" />
+          <attvalue for="7" value="889" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Lau" id="69" weight="56">
+        <attvalues>
+          <attvalue for="6" value="1075" />
+          <attvalue for="7" value="3213" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Natascha" id="70" weight="5">
+        <attvalues>
+          <attvalue for="6" value="1176" />
+          <attvalue for="7" value="1235" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Jr. James Gordon" id="71" weight="5">
+        <attvalues>
+          <attvalue for="6" value="1408" />
+          <attvalue for="7" value="1408" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Michael Wuertz" id="72" weight="17">
+        <attvalues>
+          <attvalue for="6" value="1599" />
+          <attvalue for="7" value="3509" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="LSI VP" id="73" weight="4">
+        <attvalues>
+          <attvalue for="6" value="2014" />
+          <attvalue for="7" value="3455" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Judge Janet Surrillo" id="74" weight="18">
+        <attvalues>
+          <attvalue for="6" value="2453" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Mike Engel" id="75" weight="39">
+        <attvalues>
+          <attvalue for="6" value="2545" />
+          <attvalue for="7" value="3230" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Brian" id="76" weight="16">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2635" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="Berg" id="77" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2843" />
+          <attvalue for="7" value="2875" />
+        </attvalues>
+      </edge>
+      <edge source="Harvey Dent / Two-Face" target="National Guard" id="78" weight="3">
+        <attvalues>
+          <attvalue for="6" value="3209" />
+          <attvalue for="7" value="3213" />
+        </attvalues>
+      </edge>
+      <edge source="Gerard Stephens" target="Rachel Dawes" id="79" weight="3">
+        <attvalues>
+          <attvalue for="6" value="200" />
+          <attvalue for="7" value="2426" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Ramirez" target="Rachel Dawes" id="80" weight="6">
+        <attvalues>
+          <attvalue for="6" value="200" />
+          <attvalue for="7" value="3525" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Ramirez" target="Lau" id="81" weight="4">
+        <attvalues>
+          <attvalue for="6" value="1599" />
+          <attvalue for="7" value="2193" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Ramirez" target="Michael Wuertz" id="82" weight="3">
+        <attvalues>
+          <attvalue for="6" value="1599" />
+          <attvalue for="7" value="3525" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Crime Boss" id="83" weight="3">
+        <attvalues>
+          <attvalue for="6" value="253" />
+          <attvalue for="7" value="309" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Sal Maroni" id="84" weight="7">
+        <attvalues>
+          <attvalue for="6" value="348" />
+          <attvalue for="7" value="3321" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Chechen" id="85" weight="8">
+        <attvalues>
+          <attvalue for="6" value="509" />
+          <attvalue for="7" value="2686" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Lau" id="86" weight="30">
+        <attvalues>
+          <attvalue for="6" value="1105" />
+          <attvalue for="7" value="3200" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Natascha" id="87" weight="5">
+        <attvalues>
+          <attvalue for="6" value="1176" />
+          <attvalue for="7" value="1190" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Judge Janet Surrillo" id="88" weight="6">
+        <attvalues>
+          <attvalue for="6" value="2439" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Michael Wuertz" id="89" weight="7">
+        <attvalues>
+          <attvalue for="6" value="2481" />
+          <attvalue for="7" value="3512" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Mike Engel" id="90" weight="15">
+        <attvalues>
+          <attvalue for="6" value="2545" />
+          <attvalue for="7" value="3567" />
+        </attvalues>
+      </edge>
+      <edge source="Rachel Dawes" target="Brian" id="91" weight="6">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2641" />
+        </attvalues>
+      </edge>
+      <edge source="Sal Maroni" target="Michael Wuertz" id="92" weight="4">
+        <attvalues>
+          <attvalue for="6" value="406" />
+          <attvalue for="7" value="3321" />
+        </attvalues>
+      </edge>
+      <edge source="Sal Maroni" target="Judge Freel" id="93" weight="3">
+        <attvalues>
+          <attvalue for="6" value="902" />
+          <attvalue for="7" value="924" />
+        </attvalues>
+      </edge>
+      <edge source="Sal Maroni" target="Lau" id="94" weight="7">
+        <attvalues>
+          <attvalue for="6" value="1354" />
+          <attvalue for="7" value="1646" />
+        </attvalues>
+      </edge>
+      <edge source="Michael Wuertz" target="Lau" id="95" weight="3">
+        <attvalues>
+          <attvalue for="6" value="1599" />
+          <attvalue for="7" value="1646" />
+        </attvalues>
+      </edge>
+      <edge source="Michael Wuertz" target="Judge Janet Surrillo" id="96" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2481" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Michael Wuertz" target="Mike Engel" id="97" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2790" />
+          <attvalue for="7" value="3567" />
+        </attvalues>
+      </edge>
+      <edge source="Chechen" target="Mike Engel" id="98" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2545" />
+          <attvalue for="7" value="2627" />
+        </attvalues>
+      </edge>
+      <edge source="Chechen" target="Brian" id="99" weight="10">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2627" />
+        </attvalues>
+      </edge>
+      <edge source="Chechen" target="Lau" id="100" weight="3">
+        <attvalues>
+          <attvalue for="6" value="2581" />
+          <attvalue for="7" value="2627" />
+        </attvalues>
+      </edge>
+      <edge source="Lau" target="Mike Engel" id="101" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2581" />
+          <attvalue for="7" value="3230" />
+        </attvalues>
+      </edge>
+      <edge source="Lau" target="Brian" id="102" weight="5">
+        <attvalues>
+          <attvalue for="6" value="2581" />
+          <attvalue for="7" value="2612" />
+        </attvalues>
+      </edge>
+      <edge source="Judge Janet Surrillo" target="Mike Engel" id="103" weight="4">
+        <attvalues>
+          <attvalue for="6" value="2784" />
+          <attvalue for="7" value="2790" />
+        </attvalues>
+      </edge>
+      <edge source="Mike Engel" target="Brian" id="104" weight="9">
+        <attvalues>
+          <attvalue for="6" value="2553" />
+          <attvalue for="7" value="2612" />
+        </attvalues>
+      </edge>
+      <edge source="Mike Engel" target="National Guard" id="105" weight="3">
+        <attvalues>
+          <attvalue for="6" value="3212" />
+          <attvalue for="7" value="3230" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

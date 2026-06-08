@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-01">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="race" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Aragorn" label="Aragorn">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Arwen" label="Arwen">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+      <node id="Samwise Gamgee" label="Samwise Gamgee">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Hobbit" />
+        </attvalues>
+      </node>
+      <node id="Rosie Cotton" label="Rosie Cotton">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Hobbit" />
+        </attvalues>
+      </node>
+      <node id="Faramir" label="Faramir">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Eowyn" label="Eowyn">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Beren" label="Beren">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Luthien" label="Luthien">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+      <node id="Galadriel" label="Galadriel">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+      <node id="Celeborn" label="Celeborn">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+      <node id="Tom Bombadil" label="Tom Bombadil">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Unknown" />
+        </attvalues>
+      </node>
+      <node id="Goldberry" label="Goldberry">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Maia" />
+        </attvalues>
+      </node>
+      <node id="Eomer" label="Eomer">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Lothiriel" label="Lothiriel">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Thingol" label="Thingol">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+      <node id="Melian" label="Melian">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Maia" />
+        </attvalues>
+      </node>
+      <node id="Tuor" label="Tuor">
+        <attvalues>
+          <attvalue for="0" value="male" />
+          <attvalue for="1" value="Man" />
+        </attvalues>
+      </node>
+      <node id="Idril" label="Idril">
+        <attvalues>
+          <attvalue for="0" value="female" />
+          <attvalue for="1" value="Elf" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Aragorn" target="Arwen" id="0" />
+      <edge source="Samwise Gamgee" target="Rosie Cotton" id="1" />
+      <edge source="Faramir" target="Eowyn" id="2" />
+      <edge source="Beren" target="Luthien" id="3" />
+      <edge source="Galadriel" target="Celeborn" id="4" />
+      <edge source="Tom Bombadil" target="Goldberry" id="5" />
+      <edge source="Eomer" target="Lothiriel" id="6" />
+      <edge source="Thingol" target="Melian" id="7" />
+      <edge source="Tuor" target="Idril" id="8" />
+    </edges>
+  </graph>
+</gexf>

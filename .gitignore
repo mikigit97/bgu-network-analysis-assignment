@@ -1,0 +1,29 @@
+# ---- Secrets (never commit) ----
+**/kaggle.json
+*.key
+.env
+
+# ---- Third-party / course-provided material (don't republish) ----
+Guide for Using Ollama.docx
+*ClusterUserGuide*.pdf
+
+# ---- Large raw data (downloaded via scripts; not stored in git) ----
+data/
+*.tar.gz
+*.zip
+*.gz
+
+# ---- Python / Jupyter cruft ----
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ---- SLURM / logs ----
+logs/*.out
+na_ollama_logs/
+*.sif
+
+# Keep the endpoint file out of git (it changes every job)
+logs/ollama_endpoint.txt

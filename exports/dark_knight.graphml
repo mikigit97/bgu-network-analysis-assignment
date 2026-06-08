@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d12" for="edge" attr.name="last" attr.type="long"/>
+<key id="d11" for="edge" attr.name="first" attr.type="long"/>
+<key id="d10" for="node" attr.name="community" attr.type="long"/>
+<key id="d9" for="node" attr.name="label" attr.type="string"/>
+<key id="d8" for="node" attr.name="weighted_degree" attr.type="long"/>
+<key id="d7" for="node" attr.name="degree" attr.type="long"/>
+<key id="d6" for="node" attr.name="role" attr.type="string"/>
+<key id="d5" for="node" attr.name="last" attr.type="long"/>
+<key id="d4" for="node" attr.name="first" attr.type="long"/>
+<key id="d3" for="graph" attr.name="slug" attr.type="string"/>
+<key id="d2" for="graph" attr.name="movie_year" attr.type="long"/>
+<key id="d1" for="graph" attr.name="movie_name" attr.type="string"/>
+<key id="d0" for="graph" attr.name="imdb_rating" attr.type="double"/>
+<graph edgedefault="undirected"><data key="d0">9.0</data>
+<data key="d1">The Dark Knight</data>
+<data key="d2">2008</data>
+<data key="d3">2008_The_Dark_Knight</data>
+<node id="Bruce Wayne / Batman">
+  <data key="d4">16</data>
+  <data key="d5">3550</data>
+  <data key="d6">Christian Bale</data>
+  <data key="d7">19</data>
+  <data key="d8">802</data>
+  <data key="d9">Bruce Wayne / Batman</data>
+  <data key="d10">0</data>
+</node>
+<node id="Lucius Fox">
+  <data key="d4">16</data>
+  <data key="d5">3559</data>
+  <data key="d6">Morgan Freeman</data>
+  <data key="d7">9</data>
+  <data key="d8">132</data>
+  <data key="d9">Lucius Fox</data>
+  <data key="d10">0</data>
+</node>
+<node id="Gillian B. Loeb">
+  <data key="d4">53</data>
+  <data key="d5">3569</data>
+  <data key="d6">Colin McFarlane</data>
+  <data key="d7">6</data>
+  <data key="d8">30</data>
+  <data key="d9">Gillian B. Loeb</data>
+  <data key="d10">1</data>
+</node>
+<node id="Joker">
+  <data key="d4">61</data>
+  <data key="d5">3571</data>
+  <data key="d6">Heath Ledger</data>
+  <data key="d7">19</data>
+  <data key="d8">561</data>
+  <data key="d9">Joker</data>
+  <data key="d10">1</data>
+</node>
+<node id="Barbara Gordon">
+  <data key="d4">107</data>
+  <data key="d5">3509</data>
+  <data key="d6">Melinda McGraw</data>
+  <data key="d7">19</data>
+  <data key="d8">414</data>
+  <data key="d9">Barbara Gordon</data>
+  <data key="d10">0</data>
+</node>
+<node id="Harvey Dent / Two-Face">
+  <data key="d4">125</data>
+  <data key="d5">3455</data>
+  <data key="d6">Aaron Eckhart</data>
+  <data key="d7">21</data>
+  <data key="d8">931</data>
+  <data key="d9">Harvey Dent / Two-Face</data>
+  <data key="d10">0</data>
+</node>
+<node id="Gerard Stephens">
+  <data key="d4">141</data>
+  <data key="d5">2410</data>
+  <data key="d6">Keith Szarabajka</data>
+  <data key="d7">5</data>
+  <data key="d8">23</data>
+  <data key="d9">Gerard Stephens</data>
+  <data key="d10">0</data>
+</node>
+<node id="Mayor Anthony Garcia">
+  <data key="d4">141</data>
+  <data key="d5">386</data>
+  <data key="d6">Nestor Carbonell</data>
+  <data key="d7">3</data>
+  <data key="d8">11</data>
+  <data key="d9">Mayor Anthony Garcia</data>
+  <data key="d10">1</data>
+</node>
+<node id="Anna Ramirez">
+  <data key="d4">172</data>
+  <data key="d5">3525</data>
+  <data key="d6">Monique Gabriela Curnen</data>
+  <data key="d7">6</data>
+  <data key="d8">33</data>
+  <data key="d9">Anna Ramirez</data>
+  <data key="d10">2</data>
+</node>
+<node id="Rachel Dawes">
+  <data key="d4">200</data>
+  <data key="d5">3512</data>
+  <data key="d6">Maggie Gyllenhaal</data>
+  <data key="d7">16</data>
+  <data key="d8">496</data>
+  <data key="d9">Rachel Dawes</data>
+  <data key="d10">0</data>
+</node>
+<node id="Crime Boss">
+  <data key="d4">253</data>
+  <data key="d5">253</data>
+  <data key="d6">Vincenzo Nicoli</data>
+  <data key="d7">3</data>
+  <data key="d8">12</data>
+  <data key="d9">Crime Boss</data>
+  <data key="d10">0</data>
+</node>
+<node id="Sal Maroni">
+  <data key="d4">348</data>
+  <data key="d5">3321</data>
+  <data key="d6">Eric Roberts</data>
+  <data key="d7">9</data>
+  <data key="d8">95</data>
+  <data key="d9">Sal Maroni</data>
+  <data key="d10">0</data>
+</node>
+<node id="Michael Wuertz">
+  <data key="d4">406</data>
+  <data key="d5">3509</data>
+  <data key="d6">Ron Dean</data>
+  <data key="d7">11</data>
+  <data key="d8">72</data>
+  <data key="d9">Michael Wuertz</data>
+  <data key="d10">2</data>
+</node>
+<node id="Chechen">
+  <data key="d4">509</data>
+  <data key="d5">2627</data>
+  <data key="d6">Ritchie Coster</data>
+  <data key="d7">8</data>
+  <data key="d8">83</data>
+  <data key="d9">Chechen</data>
+  <data key="d10">1</data>
+</node>
+<node id="Judge Freel">
+  <data key="d4">868</data>
+  <data key="d5">868</data>
+  <data key="d6">Patrick Clear</data>
+  <data key="d7">3</data>
+  <data key="d8">10</data>
+  <data key="d9">Judge Freel</data>
+  <data key="d10">0</data>
+</node>
+<node id="Lau">
+  <data key="d4">1075</data>
+  <data key="d5">3200</data>
+  <data key="d6">Chin Han</data>
+  <data key="d7">12</data>
+  <data key="d8">203</data>
+  <data key="d9">Lau</data>
+  <data key="d10">0</data>
+</node>
+<node id="Natascha">
+  <data key="d4">1176</data>
+  <data key="d5">1176</data>
+  <data key="d6">Beatrice Rosen</data>
+  <data key="d7">3</data>
+  <data key="d8">16</data>
+  <data key="d9">Natascha</data>
+  <data key="d10">0</data>
+</node>
+<node id="Jr. James Gordon">
+  <data key="d4">1408</data>
+  <data key="d5">1408</data>
+  <data key="d6">Nathan Gamble</data>
+  <data key="d7">2</data>
+  <data key="d8">8</data>
+  <data key="d9">Jr. James Gordon</data>
+  <data key="d10">0</data>
+</node>
+<node id="Murphy">
+  <data key="d4">1492</data>
+  <data key="d5">1492</data>
+  <data key="d6">Philip Bulcock</data>
+  <data key="d7">1</data>
+  <data key="d8">4</data>
+  <data key="d9">Murphy</data>
+  <data key="d10">0</data>
+</node>
+<node id="LSI VP">
+  <data key="d4">2014</data>
+  <data key="d5">3438</data>
+  <data key="d6">Edison Chen</data>
+  <data key="d7">3</data>
+  <data key="d8">12</data>
+  <data key="d9">LSI VP</data>
+  <data key="d10">1</data>
+</node>
+<node id="Judge Janet Surrillo">
+  <data key="d4">2439</data>
+  <data key="d5">2790</data>
+  <data key="d6">Nydia Rodriguez Terracina</data>
+  <data key="d7">8</data>
+  <data key="d8">58</data>
+  <data key="d9">Judge Janet Surrillo</data>
+  <data key="d10">2</data>
+</node>
+<node id="Mike Engel">
+  <data key="d4">2545</data>
+  <data key="d5">3567</data>
+  <data key="d6">Anthony Michael Hall</data>
+  <data key="d7">13</data>
+  <data key="d8">144</data>
+  <data key="d9">Mike Engel</data>
+  <data key="d10">1</data>
+</node>
+<node id="Brian">
+  <data key="d4">2553</data>
+  <data key="d5">2612</data>
+  <data key="d6">Andy Luther</data>
+  <data key="d7">7</data>
+  <data key="d8">97</data>
+  <data key="d9">Brian</data>
+  <data key="d10">1</data>
+</node>
+<node id="Berg">
+  <data key="d4">2843</data>
+  <data key="d5">2843</data>
+  <data key="d6">Matt Shallenberger</data>
+  <data key="d7">3</data>
+  <data key="d8">11</data>
+  <data key="d9">Berg</data>
+  <data key="d10">1</data>
+</node>
+<node id="National Guard">
+  <data key="d4">3209</data>
+  <data key="d5">3209</data>
+  <data key="d6">Jeff Albertson</data>
+  <data key="d7">3</data>
+  <data key="d8">10</data>
+  <data key="d9">National Guard</data>
+  <data key="d10">1</data>
+</node>
+<edge source="Bruce Wayne / Batman" target="Lucius Fox">
+  <data key="d11">16</data>
+  <data key="d12">3559</data>
+  <data key="d13">44</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Gillian B. Loeb">
+  <data key="d11">53</data>
+  <data key="d12">3569</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Joker">
+  <data key="d11">61</data>
+  <data key="d12">3571</data>
+  <data key="d13">154</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Barbara Gordon">
+  <data key="d11">107</data>
+  <data key="d12">3550</data>
+  <data key="d13">75</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Harvey Dent / Two-Face">
+  <data key="d11">125</data>
+  <data key="d12">3455</data>
+  <data key="d13">242</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Gerard Stephens">
+  <data key="d11">141</data>
+  <data key="d12">2410</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Mayor Anthony Garcia">
+  <data key="d11">141</data>
+  <data key="d12">392</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Rachel Dawes">
+  <data key="d11">241</data>
+  <data key="d12">3550</data>
+  <data key="d13">125</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Crime Boss">
+  <data key="d11">253</data>
+  <data key="d12">308</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Sal Maroni">
+  <data key="d11">348</data>
+  <data key="d12">3358</data>
+  <data key="d13">10</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Michael Wuertz">
+  <data key="d11">406</data>
+  <data key="d12">3550</data>
+  <data key="d13">11</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Chechen">
+  <data key="d11">509</data>
+  <data key="d12">2671</data>
+  <data key="d13">17</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Judge Freel">
+  <data key="d11">868</data>
+  <data key="d12">868</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Lau">
+  <data key="d11">1079</data>
+  <data key="d12">3252</data>
+  <data key="d13">43</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Natascha">
+  <data key="d11">1176</data>
+  <data key="d12">1208</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="LSI VP">
+  <data key="d11">2014</data>
+  <data key="d12">3450</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Judge Janet Surrillo">
+  <data key="d11">2439</data>
+  <data key="d12">2790</data>
+  <data key="d13">10</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Mike Engel">
+  <data key="d11">2545</data>
+  <data key="d12">3567</data>
+  <data key="d13">20</data>
+</edge>
+<edge source="Bruce Wayne / Batman" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2671</data>
+  <data key="d13">20</data>
+</edge>
+<edge source="Lucius Fox" target="Joker">
+  <data key="d11">61</data>
+  <data key="d12">3571</data>
+  <data key="d13">17</data>
+</edge>
+<edge source="Lucius Fox" target="Harvey Dent / Two-Face">
+  <data key="d11">301</data>
+  <data key="d12">3374</data>
+  <data key="d13">26</data>
+</edge>
+<edge source="Lucius Fox" target="Rachel Dawes">
+  <data key="d11">301</data>
+  <data key="d12">3559</data>
+  <data key="d13">19</data>
+</edge>
+<edge source="Lucius Fox" target="Barbara Gordon">
+  <data key="d11">301</data>
+  <data key="d12">3559</data>
+  <data key="d13">9</data>
+</edge>
+<edge source="Lucius Fox" target="Sal Maroni">
+  <data key="d11">348</data>
+  <data key="d12">3374</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Lucius Fox" target="Michael Wuertz">
+  <data key="d11">406</data>
+  <data key="d12">3559</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Lucius Fox" target="Lau">
+  <data key="d11">1149</data>
+  <data key="d12">3235</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Lucius Fox" target="Mike Engel">
+  <data key="d11">3235</data>
+  <data key="d12">3567</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Gillian B. Loeb" target="Joker">
+  <data key="d11">61</data>
+  <data key="d12">3571</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Gillian B. Loeb" target="Barbara Gordon">
+  <data key="d11">107</data>
+  <data key="d12">2843</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Gillian B. Loeb" target="Harvey Dent / Two-Face">
+  <data key="d11">2784</data>
+  <data key="d12">2784</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Gillian B. Loeb" target="Mike Engel">
+  <data key="d11">2784</data>
+  <data key="d12">3569</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Gillian B. Loeb" target="Judge Janet Surrillo">
+  <data key="d11">2784</data>
+  <data key="d12">2790</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Joker" target="Barbara Gordon">
+  <data key="d11">107</data>
+  <data key="d12">3509</data>
+  <data key="d13">55</data>
+</edge>
+<edge source="Joker" target="Harvey Dent / Two-Face">
+  <data key="d11">125</data>
+  <data key="d12">3502</data>
+  <data key="d13">134</data>
+</edge>
+<edge source="Joker" target="Gerard Stephens">
+  <data key="d11">141</data>
+  <data key="d12">248</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Joker" target="Mayor Anthony Garcia">
+  <data key="d11">141</data>
+  <data key="d12">423</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Joker" target="Anna Ramirez">
+  <data key="d11">172</data>
+  <data key="d12">3571</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Joker" target="Rachel Dawes">
+  <data key="d11">243</data>
+  <data key="d12">3571</data>
+  <data key="d13">48</data>
+</edge>
+<edge source="Joker" target="Sal Maroni">
+  <data key="d11">368</data>
+  <data key="d12">3334</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Joker" target="Michael Wuertz">
+  <data key="d11">406</data>
+  <data key="d12">3509</data>
+  <data key="d13">9</data>
+</edge>
+<edge source="Joker" target="Chechen">
+  <data key="d11">509</data>
+  <data key="d12">2649</data>
+  <data key="d13">18</data>
+</edge>
+<edge source="Joker" target="Lau">
+  <data key="d11">1111</data>
+  <data key="d12">3250</data>
+  <data key="d13">24</data>
+</edge>
+<edge source="Joker" target="Mike Engel">
+  <data key="d11">2550</data>
+  <data key="d12">3571</data>
+  <data key="d13">28</data>
+</edge>
+<edge source="Joker" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2649</data>
+  <data key="d13">31</data>
+</edge>
+<edge source="Joker" target="Judge Janet Surrillo">
+  <data key="d11">2788</data>
+  <data key="d12">2817</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Joker" target="Berg">
+  <data key="d11">2843</data>
+  <data key="d12">2851</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Joker" target="National Guard">
+  <data key="d11">3226</data>
+  <data key="d12">3250</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Joker" target="LSI VP">
+  <data key="d11">3438</data>
+  <data key="d12">3496</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Barbara Gordon" target="Harvey Dent / Two-Face">
+  <data key="d11">125</data>
+  <data key="d12">3509</data>
+  <data key="d13">128</data>
+</edge>
+<edge source="Barbara Gordon" target="Gerard Stephens">
+  <data key="d11">141</data>
+  <data key="d12">2451</data>
+  <data key="d13">9</data>
+</edge>
+<edge source="Barbara Gordon" target="Mayor Anthony Garcia">
+  <data key="d11">141</data>
+  <data key="d12">386</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Barbara Gordon" target="Anna Ramirez">
+  <data key="d11">172</data>
+  <data key="d12">3525</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Barbara Gordon" target="Rachel Dawes">
+  <data key="d11">200</data>
+  <data key="d12">3512</data>
+  <data key="d13">46</data>
+</edge>
+<edge source="Barbara Gordon" target="Crime Boss">
+  <data key="d11">253</data>
+  <data key="d12">305</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Barbara Gordon" target="Sal Maroni">
+  <data key="d11">348</data>
+  <data key="d12">3327</data>
+  <data key="d13">18</data>
+</edge>
+<edge source="Barbara Gordon" target="Chechen">
+  <data key="d11">509</data>
+  <data key="d12">1534</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Barbara Gordon" target="Lau">
+  <data key="d11">1075</data>
+  <data key="d12">3200</data>
+  <data key="d13">16</data>
+</edge>
+<edge source="Barbara Gordon" target="Jr. James Gordon">
+  <data key="d11">1408</data>
+  <data key="d12">1462</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Barbara Gordon" target="Murphy">
+  <data key="d11">1492</data>
+  <data key="d12">1534</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Barbara Gordon" target="Judge Janet Surrillo">
+  <data key="d11">2451</data>
+  <data key="d12">2843</data>
+  <data key="d13">8</data>
+</edge>
+<edge source="Barbara Gordon" target="Michael Wuertz">
+  <data key="d11">2481</data>
+  <data key="d12">3509</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Barbara Gordon" target="Mike Engel">
+  <data key="d11">2737</data>
+  <data key="d12">3567</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Barbara Gordon" target="Berg">
+  <data key="d11">2843</data>
+  <data key="d12">2884</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Gerard Stephens">
+  <data key="d11">141</data>
+  <data key="d12">2467</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Anna Ramirez">
+  <data key="d11">172</data>
+  <data key="d12">2167</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Rachel Dawes">
+  <data key="d11">287</data>
+  <data key="d12">3512</data>
+  <data key="d13">162</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Sal Maroni">
+  <data key="d11">348</data>
+  <data key="d12">3363</data>
+  <data key="d13">37</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Chechen">
+  <data key="d11">516</data>
+  <data key="d12">2686</data>
+  <data key="d13">17</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Judge Freel">
+  <data key="d11">868</data>
+  <data key="d12">889</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Lau">
+  <data key="d11">1075</data>
+  <data key="d12">3213</data>
+  <data key="d13">56</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Natascha">
+  <data key="d11">1176</data>
+  <data key="d12">1235</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Jr. James Gordon">
+  <data key="d11">1408</data>
+  <data key="d12">1408</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Michael Wuertz">
+  <data key="d11">1599</data>
+  <data key="d12">3509</data>
+  <data key="d13">17</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="LSI VP">
+  <data key="d11">2014</data>
+  <data key="d12">3455</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Judge Janet Surrillo">
+  <data key="d11">2453</data>
+  <data key="d12">2790</data>
+  <data key="d13">18</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Mike Engel">
+  <data key="d11">2545</data>
+  <data key="d12">3230</data>
+  <data key="d13">39</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2635</data>
+  <data key="d13">16</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="Berg">
+  <data key="d11">2843</data>
+  <data key="d12">2875</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Harvey Dent / Two-Face" target="National Guard">
+  <data key="d11">3209</data>
+  <data key="d12">3213</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Gerard Stephens" target="Rachel Dawes">
+  <data key="d11">200</data>
+  <data key="d12">2426</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Anna Ramirez" target="Rachel Dawes">
+  <data key="d11">200</data>
+  <data key="d12">3525</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Anna Ramirez" target="Lau">
+  <data key="d11">1599</data>
+  <data key="d12">2193</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Anna Ramirez" target="Michael Wuertz">
+  <data key="d11">1599</data>
+  <data key="d12">3525</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Rachel Dawes" target="Crime Boss">
+  <data key="d11">253</data>
+  <data key="d12">309</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Rachel Dawes" target="Sal Maroni">
+  <data key="d11">348</data>
+  <data key="d12">3321</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Rachel Dawes" target="Chechen">
+  <data key="d11">509</data>
+  <data key="d12">2686</data>
+  <data key="d13">8</data>
+</edge>
+<edge source="Rachel Dawes" target="Lau">
+  <data key="d11">1105</data>
+  <data key="d12">3200</data>
+  <data key="d13">30</data>
+</edge>
+<edge source="Rachel Dawes" target="Natascha">
+  <data key="d11">1176</data>
+  <data key="d12">1190</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Rachel Dawes" target="Judge Janet Surrillo">
+  <data key="d11">2439</data>
+  <data key="d12">2790</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Rachel Dawes" target="Michael Wuertz">
+  <data key="d11">2481</data>
+  <data key="d12">3512</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Rachel Dawes" target="Mike Engel">
+  <data key="d11">2545</data>
+  <data key="d12">3567</data>
+  <data key="d13">15</data>
+</edge>
+<edge source="Rachel Dawes" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2641</data>
+  <data key="d13">6</data>
+</edge>
+<edge source="Sal Maroni" target="Michael Wuertz">
+  <data key="d11">406</data>
+  <data key="d12">3321</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Sal Maroni" target="Judge Freel">
+  <data key="d11">902</data>
+  <data key="d12">924</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Sal Maroni" target="Lau">
+  <data key="d11">1354</data>
+  <data key="d12">1646</data>
+  <data key="d13">7</data>
+</edge>
+<edge source="Michael Wuertz" target="Lau">
+  <data key="d11">1599</data>
+  <data key="d12">1646</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Michael Wuertz" target="Judge Janet Surrillo">
+  <data key="d11">2481</data>
+  <data key="d12">2790</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Michael Wuertz" target="Mike Engel">
+  <data key="d11">2790</data>
+  <data key="d12">3567</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Chechen" target="Mike Engel">
+  <data key="d11">2545</data>
+  <data key="d12">2627</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Chechen" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2627</data>
+  <data key="d13">10</data>
+</edge>
+<edge source="Chechen" target="Lau">
+  <data key="d11">2581</data>
+  <data key="d12">2627</data>
+  <data key="d13">3</data>
+</edge>
+<edge source="Lau" target="Mike Engel">
+  <data key="d11">2581</data>
+  <data key="d12">3230</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Lau" target="Brian">
+  <data key="d11">2581</data>
+  <data key="d12">2612</data>
+  <data key="d13">5</data>
+</edge>
+<edge source="Judge Janet Surrillo" target="Mike Engel">
+  <data key="d11">2784</data>
+  <data key="d12">2790</data>
+  <data key="d13">4</data>
+</edge>
+<edge source="Mike Engel" target="Brian">
+  <data key="d11">2553</data>
+  <data key="d12">2612</data>
+  <data key="d13">9</data>
+</edge>
+<edge source="Mike Engel" target="National Guard">
+  <data key="d11">3212</data>
+  <data key="d12">3230</data>
+  <data key="d13">3</data>
+</edge>
+</graph></graphml>
