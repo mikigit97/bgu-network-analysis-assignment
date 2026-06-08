@@ -36,10 +36,13 @@ SCREENSHOTS = {
                 "figures/partA4_cytoscape_screenshot.png",
                 "Rendered in Cytoscape from `exports/dark_knight.cyjs`/`.graphml`, with node size mapped to the "
                 "`degree` attribute (Style ▸ Size ▸ Continuous Mapping)."),
-    "a7_cyto": ("A7 — Official **Cytoscape** screenshot (Lord of the Rings couples)",
-                "figures/partA7_cytoscape_screenshot.png",
-                "Rendered in Cytoscape from `exports/lotr_couples.cyjs`, with node **fill colour = gender** "
-                "(discrete mapping on `gender`) and node **shape = race** (discrete mapping on `race`)."),
+    "a7_cyto": ("A7 — Official **Cytoscape** render (Lord of the Rings couples)",
+                "figures/lotr_couples_cytoscape.png",
+                "Rendered in **Cytoscape** (driven by py4cytoscape) from `exports/lotr_couples.graphml`. "
+                "Node **fill colour = gender** (discrete mapping: **blue = female, red = male**) and node "
+                "**shape = race** (discrete mapping: **Elf = circle, Man = diamond, Hobbit = triangle, "
+                "Maia = square, Unknown (Tom Bombadil) = hexagon**). The nine canonical couples form nine "
+                "separate two-person components, which is why they are laid out as nine pairs."),
 }
 
 def img_cell(key):
