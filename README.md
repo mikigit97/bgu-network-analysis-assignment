@@ -4,6 +4,10 @@ This repository is my submission for **"The Art of Analyzing Big Data — Networ
 Visualization, Graph Embeddings, and Link Prediction."** It is organised as one runnable
 Jupyter notebook per part, plus a single written report that ties everything together.
 
+> **Single-file submission:** [`notebooks/combined_submission.ipynb`](notebooks/combined_submission.ipynb)
+> is one self-contained notebook with **every** part (all code, embedded outputs, explanations, and the
+> Gephi/Cytoscape screenshots embedded inline). The per-part notebooks below are kept as the sources.
+
 A **network** (also called a **graph**) is just a set of **nodes** (dots — e.g. a movie
 character, a subreddit, an employee) connected by **edges** (lines — e.g. "appeared together",
 "linked to", "emailed"). Every task below studies some real network with these ideas.
