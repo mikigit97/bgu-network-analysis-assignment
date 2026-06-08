@@ -25,11 +25,13 @@ PARTS = [
 
 # Official GUI screenshots to embed (title, image path, caption). Missing files -> placeholder.
 SCREENSHOTS = {
-    "a4_gephi": ("A4 — Official **Gephi** screenshot (Dark Knight)",
-                 "figures/partA4_gephi_screenshot.png",
-                 "Rendered in Gephi 0.11.2 from `exports/dark_knight.gexf`. Node **size mapped to degree** "
-                 "(Appearance ▸ Nodes ▸ Ranking ▸ degree); **ForceAtlas 2** layout; colour by community. "
-                 "Context panel confirms 25 nodes / 106 edges, undirected — the Dark Knight character network."),
+    "a4_gephi": ("A4 — Official **Gephi** render (Dark Knight)",
+                 "figures/dark_knight_network_gephi.png",
+                 "Rendered in **Gephi 0.11.2** (Preview export) from `exports/dark_knight.gexf`. Node **size "
+                 "mapped to degree** (Appearance ▸ Nodes ▸ Ranking ▸ degree), **ForceAtlas 2** layout, and "
+                 "node **colour by modularity community**: blue = Batman's allies (Dent, Gordon, Rachel, Lau), "
+                 "orange = the Joker/criminal side, green = institutional/legal figures (Wuertz, Surrillo, "
+                 "Ramirez). The Dark Knight character co-appearance network — 25 nodes, 106 edges."),
     "a4_cyto": ("A4 — Official **Cytoscape** screenshot (Dark Knight)",
                 "figures/partA4_cytoscape_screenshot.png",
                 "Rendered in Cytoscape from `exports/dark_knight.cyjs`/`.graphml`, with node size mapped to the "
