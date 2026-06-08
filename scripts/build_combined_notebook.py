@@ -32,10 +32,13 @@ SCREENSHOTS = {
                  "node **colour by modularity community**: blue = Batman's allies (Dent, Gordon, Rachel, Lau), "
                  "orange = the Joker/criminal side, green = institutional/legal figures (Wuertz, Surrillo, "
                  "Ramirez). The Dark Knight character co-appearance network — 25 nodes, 106 edges."),
-    "a4_cyto": ("A4 — Official **Cytoscape** screenshot (Dark Knight)",
-                "figures/partA4_cytoscape_screenshot.png",
-                "Rendered in Cytoscape from `exports/dark_knight.cyjs`/`.graphml`, with node size mapped to the "
-                "`degree` attribute (Style ▸ Size ▸ Continuous Mapping)."),
+    "a4_cyto": ("A4 — Official **Cytoscape** render (Dark Knight)",
+                "figures/dark_knight_cytoscape.png",
+                "Rendered in **Cytoscape** (driven by py4cytoscape) from `exports/dark_knight.graphml`, with node "
+                "**size mapped to the `degree`** node attribute (continuous mapping) and a force-directed layout. "
+                "Together with the Gephi render above, this fulfils A4's requirement to visualise the selected "
+                "network in **both** Cytoscape *and* Gephi. The hubs (Joker, Harvey Dent/Two-Face, "
+                "Bruce Wayne/Batman, Barbara Gordon) are visibly the largest."),
     "a7_cyto": ("A7 — Official **Cytoscape** render (Lord of the Rings couples)",
                 "figures/lotr_couples_cytoscape.png",
                 "Rendered in **Cytoscape** (driven by py4cytoscape) from `exports/lotr_couples.graphml`. "
