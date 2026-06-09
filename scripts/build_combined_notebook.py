@@ -7,9 +7,9 @@ Build ONE self-contained submission notebook from the five per-part notebooks.
 - Leaves clearly-marked placeholders for screenshots not provided yet.
 - Does NOT modify or delete the per-part notebooks.
 """
-import os, base64
+import os, base64, textwrap
 import nbformat
-from nbformat.v4 import new_notebook, new_markdown_cell
+from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 
 BASE = "/home/mickaelz/Network analysis"
 os.chdir(BASE)
@@ -110,13 +110,95 @@ already embedded. The official Gephi/Cytoscape screenshots are embedded directly
 ---
 """
 
+SETUP_MD = """---
+## Setup — environment & data download
+
+This notebook is **self-contained for reading**: every result, table, figure, and the official
+Gephi/Cytoscape screenshots are already embedded below, so you can read it top-to-bottom without
+running anything.
+
+To **re-execute** a part you need its dataset. The big raw datasets are not stored in the repository
+(they are large), so the cell below fetches them on demand. **All download flags are `False` by
+default** — flip one to `True` only for the part you want to re-run. Small derived files (the chess
+summary `.parquet`, the movie `graph_features.csv`, the Enron role labels, and the cached local-LLM
+answers) are kept, so most parts re-run cheaply with no large download.
+
+The Cytoscape/Gephi pictures are pre-rendered images (those are GUI-only desktop apps); everything
+else is reproducible from the cells.
+"""
+
+SETUP_FLAGS = '''# --- configuration: what to (re)download / regenerate (all OFF by default) ---
+import os, sys, subprocess, urllib.request, glob, zipfile, tarfile
+sys.path.insert(0, "/home/mickaelz/Network analysis/src")
+import na_utils as na
+BASE = na.BASE
+DATA = os.path.join(BASE, "data")
+
+GET_MOVIES    = False   # Kaggle ~30MB  -> 15,538 movie graphs (needs ~/.kaggle/kaggle.json). Part A.
+GET_REDDIT    = False   # SNAP  ~116MB  -> directed Reddit hyperlink network. Part B.
+GET_ENRON     = False   # CMU   ~423MB  -> Enron maildir tarball. Part C (LLM answers are cached).
+GET_CHESS     = False   # UW    ~6.85GB -> FICS chess tarball, re-aggregated to parquet. Part A6.
+SHOW_EMULATED = False   # also regenerate the matplotlib "emulated" Gephi/Cytoscape previews (off = no overhead)
+print("BASE =", BASE)
+'''
+
+SETUP_DOWNLOADS = '''# --- on-demand dataset downloads (only those whose flag is True) ---
+def _dl(url, dest):
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    if os.path.exists(dest):
+        print("already present:", dest); return
+    print("downloading", url, "->", dest); urllib.request.urlretrieve(url, dest); print("done")
+
+if GET_MOVIES:
+    os.makedirs(f"{DATA}/movies", exist_ok=True)
+    subprocess.run([sys.executable, "-m", "kaggle", "datasets", "download",
+                    "michaelfire/movie-dynamics-over-15000-movie-social-networks",
+                    "-p", f"{DATA}/movies"], check=True)               # needs ~/.kaggle/kaggle.json
+    zipfile.ZipFile(glob.glob(f"{DATA}/movies/*.zip")[0]).extractall(f"{DATA}/movies")
+    print("movies ready")
+
+if GET_REDDIT:
+    _dl("https://snap.stanford.edu/data/soc-redditHyperlinks-body.tsv",
+        f"{DATA}/linkpred/soc-redditHyperlinks-body.tsv")
+
+if GET_ENRON:
+    _dl("https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz",
+        f"{DATA}/enron/enron_mail_20150507.tar.gz")
+    print("Part C streams this tarball directly (no extraction needed); LLM answers are cached.")
+
+if GET_CHESS:
+    _dl("http://dynamics.cs.washington.edu/nobackup/chess/fcis.tar.gz",
+        f"{DATA}/chess/fcis.tar.gz")                                   # ~6.85 GB
+    with tarfile.open(f"{DATA}/chess/fcis.tar.gz") as t:
+        t.extract("./FCIS/fcis_chess.interactions.csv", path=f"{DATA}/chess")
+        t.extract("./FCIS/fcis_chess.vertices.csv", path=f"{DATA}/chess")
+    subprocess.run([sys.executable, f"{BASE}/scripts/chess_aggregate.py"], check=True)
+    print("chess parquet rebuilt")
+
+print("Setup complete (all flags False = nothing downloaded; the results below are already embedded).")
+'''
+
+def wrap_emulated(cell):
+    """Guard the optional matplotlib 'emulated' Gephi/Cytoscape renders so re-running adds no overhead
+    by default (the real GUI screenshots are embedded). Keeps existing outputs for viewing."""
+    if cell.cell_type == "code" and any(t in cell.source for t in ("pos_gephi", "pos_cyto", "pos_lotr")):
+        cell.source = (
+            "# Emulated matplotlib preview — DISABLED by default (the official Gephi/Cytoscape screenshots\n"
+            "# are embedded in the 'Official ... screenshots' subsection). Set SHOW_EMULATED=True in Setup\n"
+            "# to regenerate it.\n"
+            "if globals().get('SHOW_EMULATED', False):\n" + textwrap.indent(cell.source, "    "))
+    return cell
+
 out = new_notebook()
 out.cells.append(new_markdown_cell(TITLE))
+out.cells.append(new_markdown_cell(SETUP_MD))
+out.cells.append(new_code_cell(SETUP_FLAGS))
+out.cells.append(new_code_cell(SETUP_DOWNLOADS))
 for name, path in PARTS:
     nb = nbformat.read(path, as_version=4)
     out.cells.append(new_markdown_cell(
         f"---\n# {name}\n\n*Assembled from `{path}` — executed top-to-bottom without errors; outputs preserved.*"))
-    out.cells.extend(nb.cells)
+    out.cells.extend(wrap_emulated(c) for c in nb.cells)
 
 def find_idx(substrings, start=0):
     """First markdown cell index whose source contains ALL given substrings (case-insensitive)."""
